@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteRule ^/?images(/.*)?$ /var/www/lostUnivId.live/data/images/$1 [L]
+RewriteRule ^/?static(/.*)?$ /var/www/lostUnivId.live/resources/static/$1 [L]
+RewriteRule ^/?svg(/.*)?$ /var/www/lostUnivId.live/resources/static/svg/$1 [L]
+RewriteRule ^/?pricing(/.*)?$ /var/www/lostUnivId.live/resources/pages/pricing/$1 [L]
+RewriteRule ^/?report(/.*)?$ /var/www/lostUnivId.live/resources/pages/report/$1 [L]
+RewriteRule ^/?feat(/.*)?$ /var/www/lostUnivId.live/resources/pages/feat/$1 [L]
+RewriteRule ^/?ent_user(/.*)?$ /var/www/lostUnivId.live/resources/pages/ent_user/$1 [L]
+RewriteRule ^/?support(/.*)?$ /var/www/lostUnivId.live/resources/pages/support/$1 [L]
+RewriteRule ^/?includes(/.*)?$ /var/www/lostUnivId.live/resources/includes/$1 [L]
+RewriteRule ^/?login(/.*)?$ /var/www/lostUnivId.live/resources/pages/login/$1 [L]
+RewriteRule ^/?tacs(/.*)?$ /var/www/lostUnivId.live/resources/includes/terms.php?$1 [L]
